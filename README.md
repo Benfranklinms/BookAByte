@@ -1,4 +1,8 @@
-![pixelcut-export-2](https://github.com/user-attachments/assets/5c3e1919-97d7-4452-babb-c7c2eb00b312) # BookAByte 
+
+![Twitter header - 1](https://github.com/user-attachments/assets/eb95b2ec-c384-4fa7-837f-64029f866aae)
+
+
+# BookAByte
 
 BookABite is a platform created to make restaurant table reservations simple and convenient for everyone. With just a few steps, users can select their preferred date and time, check availability, and confirm their booking without any hassle. The system is designed to save time and effort, providing a stress-free way for diners to plan their meals in advance.
 
