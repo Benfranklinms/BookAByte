@@ -4,6 +4,7 @@ import Restaurant from "../models/restaurant.js";
 // @route POST /api/restaurants/seed
 // @access Public
 export const seedRestaurants = async (req, res) => {
+    
     try {
         const restaurants = [
             { name: "Spicy Bites", location: "New Delhi", capacity: 50, cuisineType: "Indian", openingHours: "10 AM - 11 PM", contact: { phone: "9876543210", email: "contact@spicybites.com" } },

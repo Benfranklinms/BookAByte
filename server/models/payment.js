@@ -3,12 +3,13 @@ import mongoose from "mongoose"
 const paymentSchema = new mongoose.Schema({
     userId: {
         type: mongoose.Schema.Types.ObjectId,
+       
         ref: 'user',
         required: true
     },
     reservationId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'reservation',
+       ref: 'reservation',
         required: true
     },
     amount: {

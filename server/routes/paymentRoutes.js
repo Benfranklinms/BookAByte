@@ -4,6 +4,6 @@ import { processPayment } from "../controllers/paymentController.js";
 const router = express.Router();
 
 // Route to process payment
-router.post("/", processPayment);
+router.post("/process", processPayment);
 
 export default router;
