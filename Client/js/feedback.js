@@ -77,6 +77,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Form submission
   feedbackForm.addEventListener("submit", async (e) => {
+    const authToken = localStorage.getItem("auth_token");
     e.preventDefault();
 
     // Show loading state
@@ -104,11 +105,11 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
 
       // Submit feedback
-      const response = await fetch("/api/feedback", {
+      const response = await fetch("http://127.0.0.1:3000/api/feedback", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer ${api.auth.getToken() || ''}`
+          "Authorization": `Bearer ${authToken}`
         },
         body: JSON.stringify(formData)
       });
